@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EnglishOrSpanish</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Background Elements -->
+    <video autoplay muted loop class="video-bg">
+      <source
+        src="https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-a-futuristic-circuit-board-31544-large.mp4"
+        type="video/mp4"
+      />
+    </video>
+    <div class="stars" id="stars"></div>
+    <div class="floating-coins" id="floating-coins"></div>
+
+    <!-- Corner Coins -->
+    <div class="corner-coins left">
+      <div
+        class="corner-coin"
+        style="
+          background-image: url('https://cryptologos.cc/logos/bitcoin-btc-logo.svg');
+        "
+      ></div>
+    </div>
+    <div class="corner-coins right">
+      <div
+        class="corner-coin"
+        style="
+          background-image: url('https://cryptologos.cc/logos/ethereum-eth-logo.svg');
+        "
+      ></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="logo">EnglishOrSpanish</div>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#tokenomics">Tokenomics</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="mobile-menu-btn" id="mobileMenuBtn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Homepage -->
+    <section id="home" class="page">
+      <div class="hero">
+        <h1 class="hero-title">THE NEXT 100x CRYPTO GEM</h1>
+        <p class="hero-subtitle">
+          Join the revolution and be part of the future of decentralized
+          finance. Get in early on the airdrop and ride the wave to financial
+          freedom!
+        </p>
+
+        <div class="cta-buttons">
+          <a
+            href="https://x.com/EoSdegen"
+            class="btn btn-primary"
+            target="_blank"
+          >
+            <i class="fas fa-coins"></i> Join Airdrop (FREE)
+          </a>
+          <a href="#" class="btn btn-secondary">
+            <i class="fas fa-hourglass-half"></i> Presale Coming Soon
+          </a>
+          <a
+            href="https://x.com/EoSdegen"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            <i class="fab fa-twitter"></i> Follow on X
+          </a>
+        </div>
+
+        <div class="stats-section">
+          <div class="stats-container">
+            <div class="stat-card">
+              <div class="stat-icon">
+                <i class="fas fa-coins"></i>
+              </div>
+              <div class="stat-value">$EOS</div>
+              <div class="stat-label">Token Ticker</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">
+                <i class="fas fa-boxes"></i>
+              </div>
+              <div class="stat-value">1B</div>
+              <div class="stat-label">Total Supply</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <div class="stat-value">20+</div>
+              <div class="stat-label">Investors</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">
+                <i class="fas fa-hand-holding-usd"></i>
+              </div>
+              <div class="stat-value">$2M</div>
+              <div class="stat-label">Total Funding</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmap" class="page">
+      <h2 class="section-title">ROADMAP</h2>
+      <div class="roadmap-container">
+        <div class="roadmap-item">
+          <div class="roadmap-phase">PHASE 1</div>
+          <h3 class="roadmap-title">Project Launch</h3>
+          <p class="roadmap-desc">
+            - Token creation and smart contract deployment<br />
+            - Website and social media setup<br />
+            - Community building and initial marketing<br />
+            - Presale preparation and whitelisting<br />
+            - Airdrop to community
+          </p>
+        </div>
+        <div class="roadmap-item">
+          <div class="roadmap-phase">PHASE 2</div>
+          <h3 class="roadmap-title">Presale & Listing</h3>
+          <p class="roadmap-desc">
+            - Conduct successful presale event<br />
+            - DEX listing (Uniswap/PancakeSwap)<br />
+            - Liquidity locking for 1 year<br />
+            - Initial CMC and CG listings
+          </p>
+        </div>
+        <div class="roadmap-item">
+          <div class="roadmap-phase">PHASE 3</div>
+          <h3 class="roadmap-title">Ecosystem Growth</h3>
+          <p class="roadmap-desc">Partnership announcements</p>
+        </div>
+        <div class="roadmap-item">
+          <div class="roadmap-phase">PHASE 4</div>
+          <h3 class="roadmap-title">Mass Adoption</h3>
+          <p class="roadmap-desc">Major CEX listings (Top tier exchange)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section id="tokenomics" class="page">
+      <h2 class="section-title">TOKENOMICS</h2>
+      <div class="tokenomics-container">
+        <div class="tokenomics-card">
+          <div class="tokenomics-header">
+            <div class="tokenomics-icon">
+              <i class="fas fa-chart-pie"></i>
+            </div>
+            <h3 class="tokenomics-title">Token Distribution</h3>
+          </div>
+          <div class="tokenomics-details">
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">Token Name</div>
+              <div class="tokenomics-value">EnglishOrSpanish</div>
+            </div>
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">Token Symbol</div>
+              <div class="tokenomics-value">$EOS</div>
+            </div>
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">Total Supply</div>
+              <div class="tokenomics-value">1,000,000,000</div>
+            </div>
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">Blockchain</div>
+              <div class="tokenomics-value">Solana (SOL)</div>
+            </div>
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">Presale Allocation</div>
+              <div class="tokenomics-value">250,000,000 (25%)</div>
+            </div>
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">Airdrop</div>
+              <div class="tokenomics-value">200,000,000 (20%)</div>
+            </div>
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">Team & Development</div>
+              <div class="tokenomics-value">
+                200,000,000 (20%) - 1 year lock
+              </div>
+            </div>
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">Marketing</div>
+              <div class="tokenomics-value">50,000,000 (5%)</div>
+            </div>
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">Liquidity</div>
+              <div class="tokenomics-value">
+                300,000,000 (30%) - 6 month lock
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tokenomics-card">
+          <div class="tokenomics-header">
+            <div class="tokenomics-icon">
+              <i class="fas fa-coins"></i>
+            </div>
+            <h3 class="tokenomics-title">Token Utility</h3>
+          </div>
+          <div class="tokenomics-details">
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">Governance</div>
+              <div class="tokenomics-value">
+                Voting rights for key decisions
+              </div>
+            </div>
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">Staking Rewards</div>
+              <div class="tokenomics-value">Earn passive income</div>
+            </div>
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">Transaction Fees</div>
+              <div class="tokenomics-value">2% redistribution to holders</div>
+            </div>
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">NFT Access</div>
+              <div class="tokenomics-value">Exclusive NFT drops</div>
+            </div>
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">Merch Discounts</div>
+              <div class="tokenomics-value">Up to 50% off official merch</div>
+            </div>
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">Burn Mechanism</div>
+              <div class="tokenomics-value">Quarterly token burns</div>
+            </div>
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">Presale Price</div>
+              <div class="tokenomics-value">$0.0001 per token</div>
+            </div>
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">Listing Price</div>
+              <div class="tokenomics-value">$0.005 per token</div>
+            </div>
+            <div class="tokenomics-item">
+              <div class="tokenomics-label">Target Price</div>
+              <div class="tokenomics-value">$0.01 (100x from presale)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tokenomics-chart">
+        <div class="chart-center">$EOS</div>
+        <div class="chart-legend">
+          <div class="legend-item">
+            <div
+              class="legend-color"
+              style="background: var(--neon-purple)"
+            ></div>
+            <span>Presale 25%</span>
+          </div>
+          <div class="legend-item">
+            <div
+              class="legend-color"
+              style="background: var(--electric-blue)"
+            ></div>
+            <span>Airdrop 20%</span>
+          </div>
+          <div class="legend-item">
+            <div
+              class="legend-color"
+              style="background: var(--emerald-green)"
+            ></div>
+            <span>Team 20%</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color" style="background: #ff6b6b"></div>
+            <span>Marketing 5%</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color" style="background: #feca57"></div>
+            <span>Liquidity 30%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="page">
+      <h2 class="section-title">OUR TEAM</h2>
+      <div class="team-container">
+        <div class="team-card">
+          <div
+            class="team-avatar"
+            style="
+              background-image: url('https://api.dicebear.com/6.x/adventurer/svg?seed=Warrior');
+            "
+          ></div>
+          <h4 class="team-name">WARRIOR</h4>
+          <p class="team-role">Creator & Owner</p>
+          <p class="team-desc">
+            Visionary leader with 3+ years in cryptocurrency. Responsible for
+            the core concept and strategic direction of EnglishOrSpanish.
+          </p>
+        </div>
+        <div class="team-card">
+          <div
+            class="team-avatar"
+            style="
+              background-image: url('https://api.dicebear.com/6.x/adventurer/svg?seed=Rbak');
+            "
+          ></div>
+          <h4 class="team-name">RBAK</h4>
+          <p class="team-role">Social Media Executive</p>
+          <p class="team-desc">
+            Community growth specialist with expertise in viral marketing.
+            Manages all social platforms and engagement strategies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="page">
+      <h2 class="section-title">CONTACT US</h2>
+      <div class="contact-container">
+        <div
+          class="contact-card"
+          onclick="window.location.href='mailto:englishorspanishdegen@gmail.com'"
+        >
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <h3 class="contact-title">Email Us</h3>
+          <p class="contact-info">englishorspanishdegen@gmail.com</p>
+          <button class="btn-copy" data-text="englishorspanishdegen@gmail.com">
+            <i class="fas fa-copy"></i> Copy to Clipboard
+          </button>
+          <a
+            onclick="window.location.href='mailto:englishorspanishdegen@gmail.com'"
+            target="_blank"
+            class="btn-copy"
+          >
+            <i class="fas fa-external-link-alt"></i> Mail Us
+          </a>
+        </div>
+        <div
+          class="contact-card"
+          onclick="window.location.href='https://t.me/Rbaktrades'"
+        >
+          <div class="contact-icon">
+            <i class="fab fa-telegram"></i>
+          </div>
+          <h3 class="contact-title">Telegram</h3>
+          <p class="contact-info">@Rbaktrades</p>
+          <button class="btn-copy" data-text="@Rbaktrades">
+            <i class="fas fa-copy"></i> Copy to Clipboard
+          </button>
+          <a href="https://t.me/Rbaktrades" target="_blank" class="btn-copy">
+            <i class="fas fa-external-link-alt"></i> Visit tg
+          </a>
+        </div>
+        <div
+          class="contact-card"
+          onclick="window.location.href='https://x.com/EoSdegen'"
+        >
+          <div class="contact-icon">
+            <i class="fab fa-twitter"></i>
+          </div>
+          <h3 class="contact-title">Twitter</h3>
+          <p class="contact-info">@EoSdegen</p>
+          <button class="btn-copy" data-text="@EoSdegen">
+            <i class="fas fa-copy"></i> Copy to Clipboard
+          </button>
+          <a href="https://x.com/EoSdegen" target="_blank" class="btn-copy">
+            <i class="fas fa-external-link-alt"></i> Visit Profile
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-logo">EnglishOrSpanish</div>
+      <div class="footer-links">
+        <a href="#home" class="footer-link">Home</a>
+        <a href="#roadmap" class="footer-link">Roadmap</a>
+        <a href="#tokenomics" class="footer-link">Tokenomics</a>
+        <a href="#team" class="footer-link">Team</a>
+        <a href="#contact" class="footer-link">Contact</a>
+      </div>
+      <div class="social-links">
+        <a href="https://x.com/EoSdegen" target="_blank" class="social-link">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://t.me/Rbaktrades" target="_blank" class="social-link">
+          <i class="fab fa-telegram"></i>
+        </a>
+        <a href="#" class="social-link">
+          <i class="fab fa-discord"></i>
+        </a>
+        <a href="#" class="social-link">
+          <i class="fab fa-medium"></i>
+        </a>
+      </div>
+      <p class="copyright">
+        © 2023 EnglishOrSpanish. All rights reserved. This Token is just for
+        entertainment purpose only! Not financial advice.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
